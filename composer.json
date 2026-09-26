@@ -1,5 +1,5 @@
 {
-    "name": "eveseat/seat",
+    "name": "nauclerus/star-seat",
     "description": "Simple Eve Api Tool",
     "keywords": [
         "eve",
@@ -10,16 +10,35 @@
     ],
     "license": "GPL-2.0",
     "type": "project",
+    "repositories": [
+        { "type": "vcs", "url": "https://github.com/Nauclerus/star-seat-api.git", "no-api": true },
+        { "type": "vcs", "url": "https://github.com/Nauclerus/star-seat-eveapi.git", "no-api": true },
+        { "type": "vcs", "url": "https://github.com/Nauclerus/star-seat-notifications.git", "no-api": true },
+        { "type": "vcs", "url": "https://github.com/Nauclerus/star-seat-services.git", "no-api": true },
+        { "type": "vcs", "url": "https://github.com/Nauclerus/star-seat-web.git", "no-api": true },
+        { "type": "vcs", "url": "https://github.com/Nauclerus/star-seat-eseye.git", "no-api": true },
+        { "type": "vcs", "url": "https://github.com/Nauclerus/star-seat-console.git", "no-api": true },
+        { "type": "vcs", "url": "https://github.com/Nauclerus/star-seat-manager-core.git", "no-api": true },
+        { "type": "vcs", "url": "https://github.com/Nauclerus/star-seat-structure-manager.git", "no-api": true },
+        { "type": "vcs", "url": "https://github.com/Nauclerus/star-seat-mining-manager.git", "no-api": true },
+        { "type": "vcs", "url": "https://github.com/Nauclerus/star-seat-hr-manager.git", "no-api": true },
+        { "type": "vcs", "url": "https://github.com/Nauclerus/star-seat-corp-wallet-manager.git", "no-api": true },
+        { "type": "vcs", "url": "https://github.com/Nauclerus/star-seat-blueprint-manager.git", "no-api": true },
+        { "type": "vcs", "url": "https://github.com/Nauclerus/star-seat-industry-manager.git", "no-api": true },
+        { "type": "vcs", "url": "https://github.com/Nauclerus/star-seat-buyback-manager.git", "no-api": true },
+        { "type": "vcs", "url": "https://github.com/Nauclerus/star-seat-seat-discord-pings.git", "no-api": true }
+    ],
     "require": {
         "php": "^8.1",
         "guzzlehttp/guzzle": "^7.2",
         "laravel/framework": "^10.0",
         "laravel/tinker": "^2.7",
-        "eveseat/api": "^5.0",
-        "eveseat/eveapi": "^5.0",
-        "eveseat/notifications": "^5.0",
-        "eveseat/services": "^5.0",
-        "eveseat/web": "^5.0",
+        "eveseat/api": "5.0.1",
+        "eveseat/eveapi": "5.0.37.1",
+        "eveseat/notifications": "5.0.17",
+        "eveseat/services": "5.1.0",
+        "eveseat/web": "5.0.35",
+        "eveseat/eseye": "3.2.1",
         "ext-pdo": "*"
     },
     "require-dev": {
