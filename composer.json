@@ -34,7 +34,7 @@
         "laravel/framework": "^10.0",
         "laravel/tinker": "^2.7",
         "eveseat/api": "5.0.1",
-        "eveseat/eveapi": "5.0.37.2",
+        "eveseat/eveapi": "5.0.37.3",
         "eveseat/notifications": "5.0.17",
         "eveseat/services": "5.1.0",
         "eveseat/web": "5.0.35",
