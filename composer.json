@@ -37,7 +37,7 @@
         "eveseat/eveapi": "5.0.37.4",
         "eveseat/notifications": "5.0.17",
         "eveseat/services": "5.1.0",
-        "eveseat/web": "5.0.35",
+        "eveseat/web": "5.0.35.2",
         "eveseat/eseye": "3.2.1",
         "ext-pdo": "*"
     },
